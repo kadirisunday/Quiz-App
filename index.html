@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="grid">
+      
+    <div class="quiz">
+      <h2 class="questionNumber"></h2>
+      <h1>Quiz</h1>
+    </div>
+    <!-- <hr style="margin-top: 20px;width: 95%"> -->
+    <p class="question"></p>
+    <h1 class="score"></h1>
+    <form action="" class="answer">
+      <div class="option">
+         
+            <input type="radio" name="answer" id="choose0"/><label for="choose0"></label><br>
+          
+            <input type="radio" name="answer" id="choose1"><label for="choose0"></label><br>
+
+            <input type="radio" name="answer" id="choose2"><label for="choose0"></label><br>
+
+            <input type="radio" name="answer" id="choose3"><label for="choose0"></label><br>
+        
+          <button type="button" onclick="next()"><span>Next</span></button>
+          <!-- <button type="button" onclick="back()"><span>Back</span></button> -->
+          
+      </div>
+    </form>
+    <button type="button" class="buttonSubmit" onclick="submit()"><span>Submit</span></button>
+  <!-- <hr>
+  <footer>
+    <p id="progress">Question x of y</p>
+  </footer> -->
+  </div>
+</body>
+</html>

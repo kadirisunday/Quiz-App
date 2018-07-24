@@ -1,0 +1,48 @@
+.grid{
+  margin: 100px 200px;
+  box-shadow: 6px 9px #DADAC4;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+}
+div.quiz{
+  border: 2px solid black;
+  /* margin: 50px; */
+  border-radius: 10px;
+  background: mediumaquamarine;
+}
+div.quiz h1{
+  margin-left: 35%;
+  color: white;
+  font-size: 40px;
+}
+p.question{
+  padding: 13px;
+  font-size: 25px;
+  font-weight: bold;
+}
+div.option{
+  margin: 15px;
+}
+input{
+  display: inline-block;
+  margin: 20px;
+}
+span{
+  font-size: 20px;
+}
+button{
+  border: none;
+  background: mediumaquamarine;
+  color: white;
+  width: 100px;
+  height: 35px;
+  display: inline-block;
+  margin: 10px 0 10px 50px;
+  outline: none;
+  border: 1px solid maroon;
+}
+button:hover{
+  background: #000000;
+  color: white;
+  border: none;
+}
